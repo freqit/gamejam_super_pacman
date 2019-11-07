@@ -6,7 +6,8 @@ namespace PacManGame
 {
     public class PacMan : MonoBehaviour
     {
-        float Velocity = 12f;
+        [Header("Movement Variables")]
+        public float Velocity = 12f;
 
         private Vector2 Direction;
 
