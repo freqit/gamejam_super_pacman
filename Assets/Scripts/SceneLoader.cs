@@ -4,15 +4,9 @@ using UnityEngine;
 
 namespace PacManGame
 {
-    public class GameManager : MonoBehaviour
+    public class SceneLoader : MonoBehaviour
     {
-
-        void Start()
-        {
-
-        }
-
-        void Update()
+        public void LoadSceneByString(string sceneName)
         {
 
         }
