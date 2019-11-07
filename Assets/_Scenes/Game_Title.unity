@@ -348,8 +348,8 @@ GameObject:
   m_Component:
   - component: {fileID: 588639047}
   - component: {fileID: 588639050}
-  - component: {fileID: 588639051}
   - component: {fileID: 588639049}
+  - component: {fileID: 588639051}
   - component: {fileID: 588639048}
   m_Layer: 5
   m_Name: NewGameButton
@@ -691,7 +691,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 827a3ac2abcdb894e87327b3f51a6401, type: 3}
-  m_Color: {r: 0.1550819, g: 0.37733227, b: 0.38679248, a: 1}
+  m_Color: {r: 0.30704877, g: 0.81978536, b: 0.8679245, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -868,8 +868,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 0
-  m_Color: {r: 1, g: 0.4363277, b: 0, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.11764705, g: 1, b: 0.52286196, a: 1}
+  m_Intensity: 5
   m_Range: 50
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
