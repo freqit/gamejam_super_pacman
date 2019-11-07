@@ -2,6 +2,7 @@
 
 namespace PacManGame.Items
 {
+    // Pellets item
     public class ItemPellets : PickupItemBase
     {
         void Start()

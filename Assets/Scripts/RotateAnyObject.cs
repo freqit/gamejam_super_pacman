@@ -1,18 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class RotateAnyObject : MonoBehaviour
+namespace PacManGame
 {
-    public float RotationSpeed = 0.2f;
-
-    void Update()
+    // Handles: Rotates any object in Z-axis
+    public class RotateAnyObject : MonoBehaviour
     {
-        RotateObject();
-    }
+        public float RotationSpeed = 0.2f;
 
-    public void RotateObject()
-    {
-        transform.Rotate(new Vector3(transform.position.x, transform.position.y, RotationSpeed), Space.Self);
+        void Update()
+        {
+            RotateObject();
+        }
+
+        public void RotateObject()
+        {
+            transform.Rotate(new Vector3(transform.position.x, transform.position.y, RotationSpeed), Space.Self);
+        }
     }
 }

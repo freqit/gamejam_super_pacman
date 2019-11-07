@@ -2,11 +2,19 @@
 
 namespace PacManGame
 {
+    // PacMan player scripts
+    // Handles: Movement, User inputs, Collision detection
     public class PacMan : MonoBehaviour
     {
+        // Public Variables
         [Header("Movement Variables")]
         public float Velocity = 12f;
 
+        [Header("Screen Wrapping")]
+        public GameObject LeftHorizontalPlayerBounds;
+        public GameObject TopVerticalPlayerBounds;
+
+        // Private Variables
         private Vector2 Direction;
 
         void Start()
@@ -16,6 +24,7 @@ namespace PacManGame
 
         void Update()
         {
+            // TODO(JOAKIM): Change screenwrapping to set with empty gameobjects
             if (transform.position.x < -32)
             {
                 transform.position = new Vector2(32, transform.position.y);
@@ -40,6 +49,7 @@ namespace PacManGame
 
         public void UserInput()
         {
+            // TODO(JOAKIM): Add gamepad support
             if (Input.GetKeyDown(KeyCode.A))
             {
                 Direction = Vector2.left;

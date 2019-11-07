@@ -1,9 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace PacManGame
 {
+    // Add all strings and constant variables into this file
+    // Accessible to all scripts by using keyword: "Constants"
+    // Handles: All strings for minimizing errors
     public class Constants : MonoBehaviour
     {
         // Tags
@@ -12,5 +13,7 @@ namespace PacManGame
 
         // Layers
         public const string LAYER_WALL = "Wall";
+
+        // Animations
     }
 }
