@@ -6,7 +6,7 @@ namespace PacManGame
 {
     public class PacMan : MonoBehaviour
     {
-        float Velocity = 6f;
+        float Velocity = 8f;
 
         private Vector2 Direction;
 
