@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2614025779265937947}
   - component: {fileID: 2614025779265937945}
   m_Layer: 0
-  m_Name: Pickup_Mushroom
+  m_Name: Pickup_Pellets
   m_TagString: Pickups
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 827a3ac2abcdb894e87327b3f51a6401, type: 3}
-  m_Color: {r: 0.7361095, g: 0.41869882, b: 0.9150943, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
