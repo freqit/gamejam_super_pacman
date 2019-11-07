@@ -5,7 +5,7 @@ using UnityEngine;
 namespace PacManGame
 {
     // Game Manager Singleton
-    // Handle: Current Score, Player Lives, Player Respawns
+    // Handles: Current Score, Player Lives, Player Respawns
     public sealed class GameManager : MonoBehaviour
     {
         public static GameManager instance;

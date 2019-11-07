@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 
 namespace PacManGame
 {
-    // Static class so its accessible in any script
+    // Static Class - Accessible to any script
+    // Handles: Scene Loading only
     public static class SceneLoader
     {
         public static void LoadSceneByString(string sceneName)
