@@ -22,6 +22,14 @@ namespace PacManGame
             Move();
         }
 
+        void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.gameObject.layer == LayerMask.NameToLayer(Constants.LAYER_WALL))
+            {
+                Direction = Vector2.zero;
+            }
+        }
+
         public void UserInput()
         {
             if (Input.GetKeyDown(KeyCode.A))
