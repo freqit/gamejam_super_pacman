@@ -4,7 +4,7 @@ namespace PacManGame.Items
 {
     public class PickupItemBase : MonoBehaviour
     {
-        public float ScoreValue = 0;
+        public int ScoreValue = 0;
 
         void Start()
         {

@@ -1,14 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace PacManGame
 {
-    public class SceneLoader : MonoBehaviour
+    // Static class so its accessible in any script
+    public static class SceneLoader
     {
-        public void LoadSceneByString(string sceneName)
+        public static void LoadSceneByString(string sceneName)
         {
-
+            SceneManager.LoadScene(sceneName);
         }
     }
 }

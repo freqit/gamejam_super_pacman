@@ -18,8 +18,8 @@ namespace PacManGame.Items
         {
             if (other.gameObject.tag == Constants.TAG_PLAYER)
             {
-                // add score then destroy this
-
+                GameManager.instance.AddScore(ScoreValue);
+                print(ScoreValue);
                 Destroy(gameObject);
             }
         }
