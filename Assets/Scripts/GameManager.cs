@@ -8,7 +8,7 @@ namespace PacManGame
     {
         public static GameManager instance;
 
-        int Score = 0;
+        public int Score = 0;
 
         void Awake()
         {
