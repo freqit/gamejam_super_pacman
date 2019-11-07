@@ -480,6 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da619e0e6c92504429e5cf04c68ad4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: Joakim
 --- !u!1 &874498141
 GameObject:
   m_ObjectHideFlags: 0
