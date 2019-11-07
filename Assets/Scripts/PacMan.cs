@@ -6,7 +6,7 @@ namespace PacManGame
 {
     public class PacMan : MonoBehaviour
     {
-        float Velocity = 8f;
+        float Velocity = 12f;
 
         private Vector2 Direction;
 
@@ -17,8 +17,17 @@ namespace PacManGame
 
         void Update()
         {
-            UserInput();
+            if (transform.position.x < -32)
+            {
+                transform.position = new Vector2(32, transform.position.y);
+            }
 
+            if (transform.position.x > 32)
+            {
+                transform.position = new Vector2(-32, transform.position.y);
+            }
+
+            UserInput();
             Move();
         }
 
