@@ -50,6 +50,7 @@ namespace PacManGame
         public void UserInput()
         {
             // TODO(JOAKIM): Add gamepad support
+            // IF NOT 0
             if (Input.GetKeyDown(KeyCode.A))
             {
                 Direction = Vector2.left;
