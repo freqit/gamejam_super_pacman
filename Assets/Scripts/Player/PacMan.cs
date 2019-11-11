@@ -4,11 +4,9 @@ namespace PacManGame
 {
     // PacMan player scripts
     // Handles: Movement, User inputs, Collision detection
-    public class PacMan : MonoBehaviour
+    public class PacMan : BaseCreature
     {
-        // Public Variables
-        [Header("Movement Variables")]
-        public float Velocity = 12f;
+
 
         [Header("Screen Wrapping")]
         public GameObject LeftHorizontalPlayerBounds;
