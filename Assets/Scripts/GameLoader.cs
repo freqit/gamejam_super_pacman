@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace PacManGame
 {
+    //Loads all necessary game objects (Game Manager)
+    //Attaches to main camera
+
     public class GameLoader : MonoBehaviour
     {
         public static GameLoader instance;

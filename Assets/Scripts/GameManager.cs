@@ -9,6 +9,7 @@ namespace PacManGame
         public static GameManager instance;
 
         public int Score = 0;
+        public Grid grid;
 
         void Awake()
         {
@@ -21,6 +22,9 @@ namespace PacManGame
                 Destroy(gameObject);
             }
             DontDestroyOnLoad(gameObject);
+
+            grid = new Grid();
+            grid.CreateGrid(1, 1, 1f);
         }
 
         void Start()
@@ -36,6 +40,11 @@ namespace PacManGame
         public void AddScore(int amount)
         {
             Score += amount;
+        }
+
+        private void OnDrawGizmos()
+        {
+
         }
     }
 }
