@@ -43,6 +43,7 @@ namespace PacManGame
         {
             if (other.gameObject.layer == LayerMask.NameToLayer(Constants.LAYER_WALL))
             {
+                // TODO(JOAKIM): Move to userinput()
                 Direction = Vector2.zero;
             }
         }
@@ -50,7 +51,7 @@ namespace PacManGame
         public void UserInput()
         {
             // TODO(JOAKIM): Add gamepad support
-            // IF NOT 0
+            // IF INPUT NOT 0 move, else vector2.zero
             if (Input.GetKeyDown(KeyCode.A))
             {
                 Direction = Vector2.left;
